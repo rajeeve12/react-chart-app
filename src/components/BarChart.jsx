@@ -12,8 +12,8 @@ const BarChart = () => {
 }
 
 return (
-    <div className="w-full h-64">
-      <h2 className="text-xl font-semibold mb-4">Monthly Sales</h2>
+    <div className="BarChart Image">
+      <h2 className="BarChart Image Title">Monthly Sales</h2>
       <Chart type="bar" data={data} options={options} />
     </div>
   );

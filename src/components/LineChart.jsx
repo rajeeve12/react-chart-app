@@ -12,8 +12,8 @@ const LineChart = () => {
 
   
     return (
-      <div className="w-full h-64">
-        <h2 className="text-xl font-semibold mb-4">Monthly Profits</h2>
+      <div className="LineChart Image">
+        <h2 className="LineChart Text">Monthly Profits</h2>
         <Chart type="line" data={data} options={options} />
       </div>
     );

@@ -10,8 +10,8 @@ const BubbleChart = () => {
     ];
 }
 return (
-    <div className="w-full h-64">
-      <h2 className="text-xl font-semibold mb-4">Sales, Profits, and Expenses Overview</h2>
+    <div className="BubbleChart Image">
+      <h2 className="BubbleChart Image Sales">Sales, Profits, and Expenses Overview</h2>
       <ResponsiveContainer width="100%" height="100%">
         <BubbleChart
           margin={{ top: 20, right: 30, left: 20, bottom: 10 }}

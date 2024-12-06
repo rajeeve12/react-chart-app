@@ -12,8 +12,8 @@ const ScatterPlot = () => {
 
 
     return (
-        <div className="w-full h-64">
-          <h2 className="text-xl font-semibold mb-4">Expenses vs. Profits</h2>
+        <div className="ScatterChart Image">
+          <h2 className="ScatterChart Text">Expenses vs. Profits</h2>
           <ResponsiveContainer width="100%" height="100%">
             <ScatterChart
               margin={{ top: 20, right: 30, left: 20, bottom: 10 }}
